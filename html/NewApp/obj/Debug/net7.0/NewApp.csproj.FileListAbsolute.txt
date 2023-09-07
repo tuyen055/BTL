@@ -1,0 +1,14 @@
+D:\BTL\html\NewApp\bin\Debug\net7.0\NewApp.exe
+D:\BTL\html\NewApp\bin\Debug\net7.0\NewApp.deps.json
+D:\BTL\html\NewApp\bin\Debug\net7.0\NewApp.runtimeconfig.json
+D:\BTL\html\NewApp\bin\Debug\net7.0\NewApp.dll
+D:\BTL\html\NewApp\bin\Debug\net7.0\NewApp.pdb
+D:\BTL\html\NewApp\obj\Debug\net7.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL\html\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfoInputs.cache
+D:\BTL\html\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfo.cs
+D:\BTL\html\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
+D:\BTL\html\NewApp\obj\Debug\net7.0\NewApp.dll
+D:\BTL\html\NewApp\obj\Debug\net7.0\refint\NewApp.dll
+D:\BTL\html\NewApp\obj\Debug\net7.0\NewApp.pdb
+D:\BTL\html\NewApp\obj\Debug\net7.0\NewApp.genruntimeconfig.cache
+D:\BTL\html\NewApp\obj\Debug\net7.0\ref\NewApp.dll
