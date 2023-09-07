@@ -7,13 +7,13 @@
     int b;
     System.Console.Write("Gia tri cua b la: ");
     b=Convert.ToInt32(Console.ReadLine());
-    int c=a-b;
-    int d=a*b;
-    int e=a/b;
-    int f=a%b;
-    System.Console.WriteLine("Gia tri cua c= " +c);
-     System.Console.WriteLine("Gia tri cua d= " +d);
-     System.Console.WriteLine("Gia tri cua e= " +e);
-     System.Console.WriteLine("Gia tri cua f= " +f);
+     if (a>b){
+            System.Console.Write("a lon hon b ");
+
+        }else if(a<b){
+            System.Console.Write("a nho hon b");
+        }else{
+            System.Console.Write("a bang b ");
+        }
      }
   }
