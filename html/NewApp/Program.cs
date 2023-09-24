@@ -1,4 +1,4 @@
 ﻿﻿using NEWAPP.morder;
-Employee ps = new Employee();
+Fruit ps = new Fruit();
 ps.Nhapdulieu();
 ps.Hienthi();

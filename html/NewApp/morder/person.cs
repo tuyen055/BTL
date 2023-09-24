@@ -1,22 +1,22 @@
 namespace NEWAPP.morder
 {
-    public class Employee
+    public class Fruit
     {
-        public string EmployeeID{ get; set; }
-        public string  Fullname { get; set; }
-        public int Age { get; set; }
+        public string name{ get; set; }
+        public string  color{ get; set; }
+        public int price { get; set; }
         public void Nhapdulieu()
             {
-                System.Console.Write("EmployeeID= ");
-                EmployeeID = Console.ReadLine();
-                System.Console.Write("Fullname = ");
-                Fullname = Console.ReadLine();
-                System.Console.Write("Age = ");
-                Age = Convert.ToInt16(Console.ReadLine());
+                System.Console.Write("name= ");
+                name = Console.ReadLine();
+                System.Console.Write("color = ");
+               color = Console.ReadLine();
+                System.Console.Write("price = ");
+                price = Convert.ToInt16(Console.ReadLine());
             }
     public void Hienthi()
     {
-        System.Console.WriteLine(EmployeeID + "-" + Fullname + "-" + Age );
+        System.Console.WriteLine(name + "-" + color + "-" +price);
     }
     }
 }
