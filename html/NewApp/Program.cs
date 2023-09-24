@@ -1,4 +1,4 @@
-﻿﻿using NEWAPP.morder;
-Fruit ps = new Fruit();
-ps.Nhapdulieu();
-ps.Hienthi();
+﻿﻿using newApp.models;
+Student ST = new Student();
+ST.Nhap();
+ST.Xuat();
