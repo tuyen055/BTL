@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using newApp.model;
+Employee emp = new Employee();
+emp.Nhap();
+emp.Xuat();
