@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BTL\\demoMvc\\demoMvc.csproj",
+      "projectUniqueName": "D:\\baitaplop\\BTL\\demoMvcs\\demoMvc.csproj",
       "projectName": "demoMvc",
-      "projectPath": "D:\\BTL\\demoMvc\\demoMvc.csproj",
+      "projectPath": "D:\\baitaplop\\BTL\\demoMvcs\\demoMvc.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\BTL\\demoMvc\\obj\\",
+      "outputPath": "D:\\baitaplop\\BTL\\demoMvcs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
