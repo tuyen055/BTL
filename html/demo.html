@@ -2,18 +2,17 @@
 <html>
 <body>
 
-<p><a href="#C4">Jump to Chapter 4</a></p>
-<p><a href="#C10">Jump to Chapter 10</a></p>
+<h2>Using The id Attribute in JavaScript</h2>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
 
-<h2>Tuyen 1</h2>
-<p>This chapter explains ba bla bla</p>
+<h1 id="myHeader">Doan Thi Tuyen</h1>
+<button onclick="displayResult()">Change text</button>
 
-<h2>Tuyen 2</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Tuyen 3</h2>
-<p>This chapter explains ba bla bla</p>
-
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
 
 </body>
 </html>
