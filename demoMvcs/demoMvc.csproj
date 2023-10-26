@@ -1,9 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  color: blue;
+}
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+h1 {
+  color: green;
+}
+</style>
+</head>
+<body>
 
-</Project>
+<h1>Tuyen 1</h1>
+<p>This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p>
+<p>Another paragraph.</p>
+
+</body>
+</html>
