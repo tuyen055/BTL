@@ -2,28 +2,16 @@
 <html>
 <body>
 
-<h1>My First JavaScript</h1>
-<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+<p id="demo"></p>
 
 <script>
-function light(sw) {
-  var pic;
-  if (sw == 0) {
-    pic = "pic_bulboff.gif"
-  } else {
-    pic = "pic_bulbon.gif"
-  }
-  document.getElementById('myImage').src = pic;
-}
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script>
 
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
 
-<p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
-</p>
-
+<p>A browser without support for JavaScript will show the text written inside the noscript element.</p>
+ 
 </body>
 </html>
 
