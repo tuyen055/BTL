@@ -1,8 +1,10 @@
-namespace demoMvc.Models
+namespace demoMvcs.Models
 {
+    [Table("Employee")]
     public class Employee : Person
     {
-        public int Salary { get; set; }
+        public string EmployeeID { get; set; }
+        public int Age { get; set; }
     }
 
 }
