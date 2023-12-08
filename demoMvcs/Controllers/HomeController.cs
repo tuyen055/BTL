@@ -1,8 +1,10 @@
-﻿using System.Diagnostics;
+﻿// Vũ Tiến Điệp 
+// 2021050192
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using demoMvc.Models;
+using WebMVC.Models;
 
-namespace demoMvc.Controllers;
+namespace WebMVC.Controllers;
 
 public class HomeController : Controller
 {
@@ -19,6 +21,11 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    public IActionResult Demo()
     {
         return View();
     }

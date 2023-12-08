@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace demoMvcs.Models
+namespace WebMVC.Models
 {
     [Table("Persons")]
     public class Person 
@@ -10,5 +10,7 @@ namespace demoMvcs.Models
         public string PersonID { get; set; }
         public string FullName { get; set; }
         public string Address { get; set; }
+        public string Phone { get; set; }
+
     }
 }

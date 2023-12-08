@@ -1,4 +1,4 @@
-namespace demoMvc.Models;
+namespace WebMVC.Models;
 public class TinhLuong
 {
     public double LuongCoBan { get; set; }
