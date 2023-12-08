@@ -1,5 +1,4 @@
-﻿// Vũ Tiến Điệp 
-// 2021050192
+﻿
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebMVC.Models;
