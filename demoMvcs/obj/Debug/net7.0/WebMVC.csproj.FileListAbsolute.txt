@@ -856,3 +856,7 @@ D:\BTL\demoMvcs\obj\Debug\net7.0\refint\WebMVC.dll
 D:\BTL\demoMvcs\obj\Debug\net7.0\WebMVC.pdb
 D:\BTL\demoMvcs\obj\Debug\net7.0\WebMVC.genruntimeconfig.cache
 D:\BTL\demoMvcs\obj\Debug\net7.0\ref\WebMVC.dll
+D:\BTL\demoMvcs\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\BTL\demoMvcs\bin\Debug\net7.0\X.PagedList.dll
+D:\BTL\demoMvcs\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+D:\BTL\demoMvcs\obj\Debug\net7.0\WebMVC.MvcApplicationPartsAssemblyInfo.cs

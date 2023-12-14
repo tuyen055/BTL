@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using WebMVC.Models;
 using WebMVC.Data;
 using WebMVC.Models.Process;
+using X.PagedList;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace WebMVC.Controllers
 {
@@ -14,9 +16,21 @@ namespace WebMVC.Controllers
             _context = context;
         }
         private ExcelProcess _excelPro = new ExcelProcess();
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? page, int? PageSize)
+        
         {
-            var model = await _context.Person.ToListAsync();
+            ViewBag.PageSize = new List<SelectListItem>()
+            {
+                new SelectListItem() { Value="3", Text="3" },
+                new SelectListItem() { Value="5", Text="5" },
+                new SelectListItem() { Value="10", Text="10"},
+                new SelectListItem() { Value="15", Text="15" },
+                new SelectListItem() { Value="25", Text="25" },
+                new SelectListItem() { Value="50", Text="50" },
+            };
+            int Pagesize = (PageSize ?? 3);
+            ViewBag.psize = Pagesize;
+            var model = _context.Person.ToList().ToPagedList(page ?? 1, Pagesize);
             return View(model);
         }
         public IActionResult Create()
